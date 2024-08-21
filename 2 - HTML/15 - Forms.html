@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="" method="get" enctype="multipart/form-data"> <-- metodo post e o que envia por baixo dos panos e algo
+            sigiloso -->
+
+            <h1>Digite o seu endereço</h1>
+            <label>
+                Rua:
+                <input type="text" name="rua" autocomplete="street-address">
+            </label>
+
+            <label>
+                Número:
+                <input type="number" name="numero" autocomplete="on">
+            </label>
+            <button type="submit">Enviar dados</button>
+
+            <label>
+                Email:
+                <input type="email" name="email" autocomplete="email">
+            </label>
+            <label>
+                Foto:
+                <input type="file" name="arquivo">
+            </label>
+
+            <button type="reset"> reset</button>
+            <button type="submit">Enviar dados</button>
+
+    </form>
+</body>
+
+</html>

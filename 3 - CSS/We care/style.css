@@ -1,0 +1,94 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.LinkHeader {
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-left: 23px;
+}
+
+
+
+.buttonheader {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.26px;
+    border-radius: 20px;
+    border: none;
+    background-color: #665ae1;
+    color: white;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.img-logo {
+
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.ExploreButton {
+
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px; 
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!--Versao  do HTML-->
+<html lang="en"> <!--TAG  HTML e  lingua do site-->
+
+<head> <!--Configuracoes  do  site-->
+    <meta charset="UTF-8"> <!-- Padrao de caracteres dod site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--site compativel com phone e pc-->
+    <link rel="stylesheet" href="style.css"> <!--Importando o meu css-->
+    <title>Project-Tesla</title> <!--Titulo do site-->
+</head>
+
+<body>
+    <ul class="lista">
+
+        <li class="item">
+            <img src="./img/logo.png" alt="Tesla logo" class="logo">
+            <video src="./img/tesla.mp4" autoplay muted loop></video>
+
+
+            <div class="infoM3">
+                <h1>Model 3</h1>
+                <p>$7,500 Federal Tax Credit Available ¹</p>
+                <p>From $29,990 After Est. Savings ²</p>
+            </div>
+
+            <div class="rodape">
+
+                <button class="OrderNow" onclick="navigateToSite()">Order now</button>
+                <button class="DemodDrive" onclick="formIN()">Demo drive</button>
+
+                <p class="rodapelegenda">
+                    ¹ - $7,500 Federal Tax Credit available for eligible buyers and subject to MSRP
+                    caps. Model 3 Rear-Wheel Drive not eligible.</p>
+                <p>² - Price before estimated savings is $42,490, excluding taxes and fees. Subject to change. Estimated
+                    savings includes $5,000 in gas savings estimated over five years, the $7,500 Federal Tax Credit and
+                    state incentives, available to eligible buyers and subject to MSRP caps. Terms apply.</p>
+
+
+            </div>
+        </li>
+
+        <!-- Second Item -->
+        <li class="item2">
+            <img src="./img/model-3.png" alt="model-3" class="imagemM3">
+            <div class="infoMY">
+                <h1 class="titlemodel3">Model 3</h1>
+            </div>
+            <div class="rodape">
+                <button class="OrderNow" onclick="navigateToSite()">Order now</button>
+                <button class="DemodDrive" onclick="formIN()">Demo drive</button>
+            </div>
+        </li>
+
+        <!-- Third Item -->
+        <li class="item3">
+            <video src="./img/model-y.mp4" class="video2" autoplay muted loop></video>
+            <div class="infoMY">
+                <h1>Model Y</h1>
+                <p>1.99% APR Financing Ending August 31 From $31,490</p>
+            </div>
+            <div class="rodape">
+                <button class="OrderNow" onclick="navigateToSite()">Order now</button>
+                <button class="DemodDrive" onclick="formIN()">Demo drive</button>
+            </div>
+        </li>
+    </ul>
+
+    <div class="Form">
+        <button class="Close" onclick="formOUT()">Close</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/242062802810042"></script>
+    </div>
+
+  
+</body>
+<script src="scripts..js"></script>
+</html>

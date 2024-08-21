@@ -1,0 +1,27 @@
+* {
+    background-color: blanchedalmond;
+}
+
+h1 {
+
+    color: red;
+    background-color: black;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+
+    background-color: aqua;
+    border-color: blue;
+}
+
+
+
+
+
+/* #id
+ .class */

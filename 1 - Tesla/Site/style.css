@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Apply global styles to all elements */
+* {
+    font-family: "Poppins", sans-serif; /* Set the global font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box;  /* Include padding and border in the element's total width and height */
+    object-fit: cover;
+    
+}
+
+/* Enable vertical scroll snapping on the HTML element */
+html {
+    scroll-snap-type: y mandatory; /* Snap scroll vertically, required for snapping */
+}
+
+
+/* Enable vertical scroll snapping on the body element */
+body {
+    scroll-snap-type: y mandatory; /* Snap scroll vertically, required for snapping */
+    height: 100vh; /* Set body height to full viewport height */
+    width: 100vh; /* Set body height to full viewport width */
+    overflow-y: scroll;  /* Enable vertical scrolling */
+}
+
+/* Remove default list styles from the unordered list */
+ul.lista {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style each section item to take up full viewport height and width */
+.item, .item2, .item3 {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack item vertically */
+    justify-content: space-between; /* Distribute space between item */
+    height: 100vh; /* Set each item to full viewport height */
+    width: 99vw; /* Set each item to full viewport width */
+    scroll-snap-align: start; /* Snap this element to the start when scrolling */
+    position: relative;  /* Position relative to contain absolutely positioned items*/
+}
+
+/* Style for full-screen background video or image */
+video, .imagemM3 {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: absolute; /* Position absolutely within its container */
+    top: 0; /* Align to the top */
+    left: 0;  /* Align to the left */
+    z-index: -1;  /* Place behind other elements */
+    object-fit: cover; /* Cover the entire container */
+    filter: brightness(60%); /* Dim the brightness for better text readability */
+}
+
+
+/* Style for the logo */
+.logo {
+    filter: brightness(100); /* Ensure the logo is at full brightness */
+    position: fixed; /* Fix the logo in place */
+    width: 120px; /* Set logo width */
+    z-index: 1;  /* Ensure the logo is above background elements */
+}
+
+/* Style for headings */
+h1 {
+    color: white; /* White text color */
+    font-size: 60px; /* Large font size */
+}
+
+
+/* Style for information sections */
+.infoM3, .infoMY {
+    margin-top: 80px; /* Space above the text */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    z-index: 1; /* Ensure the text is above background elements */
+}
+
+/* Style for footer section */
+.rodape {
+    text-align: center; /* Center-align the text */
+    color: white; /* White text color */
+    font-size: 10px; /* Small font size */
+    margin-top: 10px; /* Small space above the footer */
+    margin-bottom: 20px; /* Space below the footer */
+    z-index: 1; /* Ensure the footer is above background elements */
+}
+
+/* Additional margin for footer legend */
+.rodapelegenda {
+    margin-top: 50px; /* Space above the footer legend */
+}
+
+
+/* Style for buttons */
+button {
+    padding: 7px 80px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
+    font-size: medium; /* Medium font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Relative positioning for stacking context */
+}
+
+/* Style for the Demo Drive button */
+.DemodDrive{
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    opacity: 0.8; /* Slightly transparent */
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+    margin-left: 10px;
+}
+.DemodDrive:hover{
+    background-color:white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+.OrderNow{
+    background-color: white;
+    color: black;
+    padding: 7px 80px; /* Adjust padding for better spacing */
+    font-size: 16px; /* Ensure the font size is readable */
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.OrderNow:hover{
+    background-color: black; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    opacity: 0.8;
+}
+
+.Form {
+    position: fixed;
+    top: 40px;
+    width: 20%;
+    height: 40%;
+    z-index: 3;
+    left: -100%;
+    transition: 1.5s;
+
+}
+
+.Close {
+
+    padding: 5px 15px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 10px;
+    border-radius: 0;
+}
+
+.Close:hover{
+    background-color:white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}

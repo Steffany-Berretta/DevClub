@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+
+}
+element.style {
+    width: auto;
+}
+header {
+
+    margin: 47px 42px 100px 50px;
+
+}
+
+.linkheader {
+    color: #17233D;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin-left: 23px;
+
+
+
+}
+
+.SignUp {
+    margin-right: 10px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 15px;
+    background: #6FBF44;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+
+.img-logo {
+
+    display: inline-block;
+    width: 534px;
+    height: 467px;
+
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 550px;
+    height: 164px;
+    color: #161A49;
+    margin-bottom: 50px;
+}
+
+p {
+    width: 450px;
+    height: 100px;
+    color: #4B505A;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+
+
+}
+
+
+
+.LearnMore {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background-color: transparent;
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .linkheader {
+        display: none;
+    }
+
+
+    .SignUp {
+
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    section {
+        display: inline-block;
+        margin-left: 0px;
+    
+    }
+
+    h1 {
+        width: auto;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: 20px  55px;
+    }
+
+    p {
+        width: auto;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+margin: 0  43px;
+    }
+
+    .LearnMore {
+        width: auto;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .img-logo {
+        position: static;
+        align-items: center;
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+
+
+}
